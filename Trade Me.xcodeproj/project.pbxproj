@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1856AB2291C60EE009B319A /* SF-Compact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1856AB1291C60EE009B319A /* SF-Compact.ttf */; };
+		E1856AB5291C6550009B319A /* WatchlistCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AB4291C6550009B319A /* WatchlistCoordenator.swift */; };
+		E1856AB7291C65B5009B319A /* MyTradeMeCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AB6291C65B5009B319A /* MyTradeMeCoordenator.swift */; };
+		E1856ABA291C6F03009B319A /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AB8291C6F03009B319A /* CardViewController.swift */; };
+		E1856ABB291C6F03009B319A /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1856AB9291C6F03009B319A /* CardViewController.xib */; };
+		E1856AC1291C7232009B319A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856ABF291C7232009B319A /* SearchViewController.swift */; };
+		E1856AC2291C7232009B319A /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1856AC0291C7232009B319A /* SearchViewController.xib */; };
+		E1856AC6291C75C4009B319A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AC4291C75C4009B319A /* CartViewController.swift */; };
+		E1856AC7291C75C4009B319A /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1856AC5291C75C4009B319A /* CartViewController.xib */; };
+		E1856ACA291C7748009B319A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AC9291C7748009B319A /* API.swift */; };
+		E1856ACD291C77AA009B319A /* CombineNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856ACC291C77AA009B319A /* CombineNetworkService.swift */; };
+		E1856ACF291C77CE009B319A /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856ACE291C77CE009B319A /* BaseRequest.swift */; };
+		E1856AD1291C780B009B319A /* API_Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AD0291C780B009B319A /* API_Requests.swift */; };
+		E1856AD3291C8070009B319A /* LatestListingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AD2291C8070009B319A /* LatestListingsModel.swift */; };
+		E1856AD6291C8101009B319A /* API_Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856AD5291C8101009B319A /* API_Request.swift */; };
+		E1856ADD292057BD009B319A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1856ADC292057BD009B319A /* AsyncImageView.swift */; };
+		E1CDBD8A291C4DE900E31D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBD89291C4DE900E31D74 /* AppDelegate.swift */; };
+		E1CDBD8C291C4DE900E31D74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBD8B291C4DE900E31D74 /* SceneDelegate.swift */; };
+		E1CDBD8E291C4DE900E31D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBD8D291C4DE900E31D74 /* ViewController.swift */; };
+		E1CDBD91291C4DE900E31D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBD8F291C4DE900E31D74 /* Main.storyboard */; };
+		E1CDBD93291C4DEB00E31D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBD92291C4DEB00E31D74 /* Assets.xcassets */; };
+		E1CDBD96291C4DEB00E31D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBD94291C4DEB00E31D74 /* LaunchScreen.storyboard */; };
+		E1CDBD9E291C517F00E31D74 /* BaseCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBD9D291C517F00E31D74 /* BaseCoordenator.swift */; };
+		E1CDBDA0291C51BB00E31D74 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBD9F291C51BB00E31D74 /* Coordinator.swift */; };
+		E1CDBDA3291C53BC00E31D74 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDA2291C53BC00E31D74 /* RootViewController.swift */; };
+		E1CDBDA6291C541100E31D74 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDA5291C541100E31D74 /* LoadViewController.swift */; };
+		E1CDBDA8291C576300E31D74 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDA7291C576300E31D74 /* MainTabBarCoordinator.swift */; };
+		E1CDBDAA291C57D200E31D74 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDA9291C57D200E31D74 /* RootTabBarController.swift */; };
+		E1CDBDAD291C587300E31D74 /* LatestListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDAB291C587300E31D74 /* LatestListingsViewController.swift */; };
+		E1CDBDAE291C587300E31D74 /* LatestListingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBDAC291C587300E31D74 /* LatestListingsViewController.xib */; };
+		E1CDBDB2291C58C400E31D74 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDB0291C58C400E31D74 /* WatchlistViewController.swift */; };
+		E1CDBDB3291C58C400E31D74 /* WatchlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBDB1291C58C400E31D74 /* WatchlistViewController.xib */; };
+		E1CDBDB7291C58EE00E31D74 /* MyTradeMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDB5291C58EE00E31D74 /* MyTradeMeViewController.swift */; };
+		E1CDBDB8291C58EE00E31D74 /* MyTradeMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBDB6291C58EE00E31D74 /* MyTradeMeViewController.xib */; };
+		E1CDBDBB291C5AAA00E31D74 /* LatestListingsCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDBA291C5AAA00E31D74 /* LatestListingsCoordenator.swift */; };
+		E1CDBDBE291C5BAB00E31D74 /* ListingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDBC291C5BAB00E31D74 /* ListingsTableViewCell.swift */; };
+		E1CDBDBF291C5BAB00E31D74 /* ListingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CDBDBD291C5BAB00E31D74 /* ListingsTableViewCell.xib */; };
+		E1CDBDC2291C5E5A00E31D74 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDBDC1291C5E5A00E31D74 /* DesignableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1856AB1291C60EE009B319A /* SF-Compact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact.ttf"; sourceTree = "<group>"; };
+		E1856AB4291C6550009B319A /* WatchlistCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistCoordenator.swift; sourceTree = "<group>"; };
+		E1856AB6291C65B5009B319A /* MyTradeMeCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTradeMeCoordenator.swift; sourceTree = "<group>"; };
+		E1856AB8291C6F03009B319A /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		E1856AB9291C6F03009B319A /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		E1856ABF291C7232009B319A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E1856AC0291C7232009B319A /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		E1856AC4291C75C4009B319A /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		E1856AC5291C75C4009B319A /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		E1856AC9291C7748009B319A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E1856ACC291C77AA009B319A /* CombineNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineNetworkService.swift; sourceTree = "<group>"; };
+		E1856ACE291C77CE009B319A /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		E1856AD0291C780B009B319A /* API_Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Requests.swift; sourceTree = "<group>"; };
+		E1856AD2291C8070009B319A /* LatestListingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestListingsModel.swift; sourceTree = "<group>"; };
+		E1856AD5291C8101009B319A /* API_Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Request.swift; sourceTree = "<group>"; };
+		E1856AD8291C86BA009B319A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
+		E1856ADC292057BD009B319A /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		E1CDBD86291C4DE900E31D74 /* Trade Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trade Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CDBD89291C4DE900E31D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1CDBD8B291C4DE900E31D74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1CDBD8D291C4DE900E31D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1CDBD90291C4DE900E31D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1CDBD92291C4DEB00E31D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CDBD95291C4DEB00E31D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1CDBD97291C4DEB00E31D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CDBD9D291C517F00E31D74 /* BaseCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordenator.swift; sourceTree = "<group>"; };
+		E1CDBD9F291C51BB00E31D74 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E1CDBDA2291C53BC00E31D74 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E1CDBDA5291C541100E31D74 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		E1CDBDA7291C576300E31D74 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
+		E1CDBDA9291C57D200E31D74 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		E1CDBDAB291C587300E31D74 /* LatestListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestListingsViewController.swift; sourceTree = "<group>"; };
+		E1CDBDAC291C587300E31D74 /* LatestListingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestListingsViewController.xib; sourceTree = "<group>"; };
+		E1CDBDB0291C58C400E31D74 /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		E1CDBDB1291C58C400E31D74 /* WatchlistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchlistViewController.xib; sourceTree = "<group>"; };
+		E1CDBDB5291C58EE00E31D74 /* MyTradeMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTradeMeViewController.swift; sourceTree = "<group>"; };
+		E1CDBDB6291C58EE00E31D74 /* MyTradeMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTradeMeViewController.xib; sourceTree = "<group>"; };
+		E1CDBDBA291C5AAA00E31D74 /* LatestListingsCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestListingsCoordenator.swift; sourceTree = "<group>"; };
+		E1CDBDBC291C5BAB00E31D74 /* ListingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsTableViewCell.swift; sourceTree = "<group>"; };
+		E1CDBDBD291C5BAB00E31D74 /* ListingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListingsTableViewCell.xib; sourceTree = "<group>"; };
+		E1CDBDC1291C5E5A00E31D74 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CDBD83291C4DE900E31D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1856AB3291C60FA009B319A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1856AB1291C60EE009B319A /* SF-Compact.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E1856ABC291C6F09009B319A /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				E1856AB8291C6F03009B319A /* CardViewController.swift */,
+				E1856AB9291C6F03009B319A /* CardViewController.xib */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		E1856AC3291C723B009B319A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E1856ABF291C7232009B319A /* SearchViewController.swift */,
+				E1856AC0291C7232009B319A /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E1856AC8291C75FE009B319A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				E1856AC4291C75C4009B319A /* CartViewController.swift */,
+				E1856AC5291C75C4009B319A /* CartViewController.xib */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		E1856ACB291C774E009B319A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E1856AC9291C7748009B319A /* API.swift */,
+				E1856ACC291C77AA009B319A /* CombineNetworkService.swift */,
+				E1856ACE291C77CE009B319A /* BaseRequest.swift */,
+				E1856AD0291C780B009B319A /* API_Requests.swift */,
+				E1856AD5291C8101009B319A /* API_Request.swift */,
+				E1856ADC292057BD009B319A /* AsyncImageView.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E1856AD4291C8077009B319A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1856AD2291C8070009B319A /* LatestListingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1856AD7291C86B9009B319A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1856AD8291C86BA009B319A /* Combine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CDBD7D291C4DE900E31D74 = {
+			isa = PBXGroup;
+			children = (
+				E1CDBD88291C4DE900E31D74 /* Trade Me */,
+				E1CDBD87291C4DE900E31D74 /* Products */,
+				E1856AD7291C86B9009B319A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CDBD87291C4DE900E31D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBD86291C4DE900E31D74 /* Trade Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CDBD88291C4DE900E31D74 /* Trade Me */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBD89291C4DE900E31D74 /* AppDelegate.swift */,
+				E1856AD4291C8077009B319A /* Model */,
+				E1856ACB291C774E009B319A /* API */,
+				E1CDBDA4291C53C500E31D74 /* VC */,
+				E1CDBDA1291C52AA00E31D74 /* Coordenator */,
+				E1CDBD8B291C4DE900E31D74 /* SceneDelegate.swift */,
+				E1CDBD8D291C4DE900E31D74 /* ViewController.swift */,
+				E1856AB3291C60FA009B319A /* Fonts */,
+				E1CDBD8F291C4DE900E31D74 /* Main.storyboard */,
+				E1CDBD92291C4DEB00E31D74 /* Assets.xcassets */,
+				E1CDBD94291C4DEB00E31D74 /* LaunchScreen.storyboard */,
+				E1CDBD97291C4DEB00E31D74 /* Info.plist */,
+			);
+			path = "Trade Me";
+			sourceTree = "<group>";
+		};
+		E1CDBDA1291C52AA00E31D74 /* Coordenator */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBD9D291C517F00E31D74 /* BaseCoordenator.swift */,
+				E1CDBD9F291C51BB00E31D74 /* Coordinator.swift */,
+				E1CDBDA7291C576300E31D74 /* MainTabBarCoordinator.swift */,
+				E1CDBDBA291C5AAA00E31D74 /* LatestListingsCoordenator.swift */,
+				E1856AB4291C6550009B319A /* WatchlistCoordenator.swift */,
+				E1856AB6291C65B5009B319A /* MyTradeMeCoordenator.swift */,
+			);
+			path = Coordenator;
+			sourceTree = "<group>";
+		};
+		E1CDBDA4291C53C500E31D74 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBDC1291C5E5A00E31D74 /* DesignableView.swift */,
+				E1CDBDA2291C53BC00E31D74 /* RootViewController.swift */,
+				E1CDBDA5291C541100E31D74 /* LoadViewController.swift */,
+				E1CDBDA9291C57D200E31D74 /* RootTabBarController.swift */,
+				E1CDBDAF291C587A00E31D74 /* Latest listings */,
+				E1CDBDB4291C58CC00E31D74 /* Watchlist */,
+				E1CDBDB9291C58F800E31D74 /* My Trade Me */,
+				E1856ABC291C6F09009B319A /* Card */,
+				E1856AC3291C723B009B319A /* Search */,
+				E1856AC8291C75FE009B319A /* Cart */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		E1CDBDAF291C587A00E31D74 /* Latest listings */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBDAB291C587300E31D74 /* LatestListingsViewController.swift */,
+				E1CDBDAC291C587300E31D74 /* LatestListingsViewController.xib */,
+				E1CDBDC0291C5BB600E31D74 /* listings cell */,
+			);
+			path = "Latest listings";
+			sourceTree = "<group>";
+		};
+		E1CDBDB4291C58CC00E31D74 /* Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBDB0291C58C400E31D74 /* WatchlistViewController.swift */,
+				E1CDBDB1291C58C400E31D74 /* WatchlistViewController.xib */,
+			);
+			path = Watchlist;
+			sourceTree = "<group>";
+		};
+		E1CDBDB9291C58F800E31D74 /* My Trade Me */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBDB5291C58EE00E31D74 /* MyTradeMeViewController.swift */,
+				E1CDBDB6291C58EE00E31D74 /* MyTradeMeViewController.xib */,
+			);
+			path = "My Trade Me";
+			sourceTree = "<group>";
+		};
+		E1CDBDC0291C5BB600E31D74 /* listings cell */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDBDBC291C5BAB00E31D74 /* ListingsTableViewCell.swift */,
+				E1CDBDBD291C5BAB00E31D74 /* ListingsTableViewCell.xib */,
+			);
+			path = "listings cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CDBD85291C4DE900E31D74 /* Trade Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CDBD9A291C4DEB00E31D74 /* Build configuration list for PBXNativeTarget "Trade Me" */;
+			buildPhases = (
+				E1CDBD82291C4DE900E31D74 /* Sources */,
+				E1CDBD83291C4DE900E31D74 /* Frameworks */,
+				E1CDBD84291C4DE900E31D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trade Me";
+			productName = "Trade Me";
+			productReference = E1CDBD86291C4DE900E31D74 /* Trade Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CDBD7E291C4DE900E31D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E1CDBD85291C4DE900E31D74 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = E1CDBD81291C4DE900E31D74 /* Build configuration list for PBXProject "Trade Me" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CDBD7D291C4DE900E31D74;
+			productRefGroup = E1CDBD87291C4DE900E31D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CDBD85291C4DE900E31D74 /* Trade Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CDBD84291C4DE900E31D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CDBDB3291C58C400E31D74 /* WatchlistViewController.xib in Resources */,
+				E1856AC7291C75C4009B319A /* CartViewController.xib in Resources */,
+				E1CDBDAE291C587300E31D74 /* LatestListingsViewController.xib in Resources */,
+				E1CDBD96291C4DEB00E31D74 /* LaunchScreen.storyboard in Resources */,
+				E1CDBD93291C4DEB00E31D74 /* Assets.xcassets in Resources */,
+				E1CDBD91291C4DE900E31D74 /* Main.storyboard in Resources */,
+				E1CDBDBF291C5BAB00E31D74 /* ListingsTableViewCell.xib in Resources */,
+				E1CDBDB8291C58EE00E31D74 /* MyTradeMeViewController.xib in Resources */,
+				E1856AB2291C60EE009B319A /* SF-Compact.ttf in Resources */,
+				E1856AC2291C7232009B319A /* SearchViewController.xib in Resources */,
+				E1856ABB291C6F03009B319A /* CardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CDBD82291C4DE900E31D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1856ACF291C77CE009B319A /* BaseRequest.swift in Sources */,
+				E1CDBD8E291C4DE900E31D74 /* ViewController.swift in Sources */,
+				E1CDBD8A291C4DE900E31D74 /* AppDelegate.swift in Sources */,
+				E1CDBDA6291C541100E31D74 /* LoadViewController.swift in Sources */,
+				E1CDBDA8291C576300E31D74 /* MainTabBarCoordinator.swift in Sources */,
+				E1856AC1291C7232009B319A /* SearchViewController.swift in Sources */,
+				E1CDBDAD291C587300E31D74 /* LatestListingsViewController.swift in Sources */,
+				E1CDBDAA291C57D200E31D74 /* RootTabBarController.swift in Sources */,
+				E1CDBDB2291C58C400E31D74 /* WatchlistViewController.swift in Sources */,
+				E1CDBDA3291C53BC00E31D74 /* RootViewController.swift in Sources */,
+				E1856AB5291C6550009B319A /* WatchlistCoordenator.swift in Sources */,
+				E1856ACD291C77AA009B319A /* CombineNetworkService.swift in Sources */,
+				E1CDBDC2291C5E5A00E31D74 /* DesignableView.swift in Sources */,
+				E1856AD3291C8070009B319A /* LatestListingsModel.swift in Sources */,
+				E1856ADD292057BD009B319A /* AsyncImageView.swift in Sources */,
+				E1CDBDBE291C5BAB00E31D74 /* ListingsTableViewCell.swift in Sources */,
+				E1856AC6291C75C4009B319A /* CartViewController.swift in Sources */,
+				E1856ACA291C7748009B319A /* API.swift in Sources */,
+				E1CDBDBB291C5AAA00E31D74 /* LatestListingsCoordenator.swift in Sources */,
+				E1CDBDA0291C51BB00E31D74 /* Coordinator.swift in Sources */,
+				E1856AD1291C780B009B319A /* API_Requests.swift in Sources */,
+				E1CDBD8C291C4DE900E31D74 /* SceneDelegate.swift in Sources */,
+				E1856ABA291C6F03009B319A /* CardViewController.swift in Sources */,
+				E1CDBD9E291C517F00E31D74 /* BaseCoordenator.swift in Sources */,
+				E1856AB7291C65B5009B319A /* MyTradeMeCoordenator.swift in Sources */,
+				E1856AD6291C8101009B319A /* API_Request.swift in Sources */,
+				E1CDBDB7291C58EE00E31D74 /* MyTradeMeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1CDBD8F291C4DE900E31D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CDBD90291C4DE900E31D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1CDBD94291C4DEB00E31D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CDBD95291C4DEB00E31D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CDBD98291C4DEB00E31D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1CDBD99291C4DEB00E31D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CDBD9B291C4DEB00E31D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P4SK75UN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trade Me/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Trade Me";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OleksiiAharkov.Trade-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1CDBD9C291C4DEB00E31D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P4SK75UN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trade Me/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Trade Me";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OleksiiAharkov.Trade-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CDBD81291C4DE900E31D74 /* Build configuration list for PBXProject "Trade Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CDBD98291C4DEB00E31D74 /* Debug */,
+				E1CDBD99291C4DEB00E31D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CDBD9A291C4DEB00E31D74 /* Build configuration list for PBXNativeTarget "Trade Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CDBD9B291C4DEB00E31D74 /* Debug */,
+				E1CDBD9C291C4DEB00E31D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CDBD7E291C4DE900E31D74 /* Project object */;
+}

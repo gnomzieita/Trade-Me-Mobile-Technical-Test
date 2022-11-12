@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21223" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21204"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Compact.ttf">
+            <string>SFCompact-Medium</string>
+            <string>SFCompact-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListingsTableViewCell" customModule="Trade_Me" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="138" id="KGk-i7-Jjw" customClass="ListingsTableViewCell" customModule="Trade_Me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="579" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="579" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TradeMe_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="DJC-3P-GGH" customClass="AsyncImageView" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="20" y="20" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="GEe-gv-fyc"/>
+                            <constraint firstAttribute="width" constant="100" id="SvE-ta-RfL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZX-LF-aI7" customClass="DesignableLabel" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="127.99999999999999" y="20" width="33.333333333333329" height="16.333333333333329"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16.333333333333329" id="cHU-Yl-iDU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFCompact-Regular" family="SF Compact" pointSize="13"/>
+                        <color key="textColor" name="Test light - Bluff Oyster 600"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c40-c7-fPK" customClass="DesignableLabel" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="127.99999999999999" y="36.333333333333336" width="38.333333333333329" height="18"/>
+                        <fontDescription key="fontDescription" name="SFCompact-Medium" family="SF Compact" pointSize="15"/>
+                        <color key="textColor" name="Text dark - Bluff Oyster 800"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCO-LY-PRd" customClass="DesignableLabel" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="127.99999999999999" y="86.333333333333329" width="38.333333333333329" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="urE-It-a0h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFCompact-Medium" family="SF Compact" pointSize="15"/>
+                        <color key="textColor" name="Text dark - Bluff Oyster 800"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFj-GM-iHs" customClass="DesignableLabel" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="127.99999999999999" y="104.33333333333333" width="33.333333333333329" height="15.666666666666671"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15.666666666666671" id="7bZ-Yp-x4X"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFCompact-Regular" family="SF Compact" pointSize="13"/>
+                        <color key="textColor" name="Test light - Bluff Oyster 600"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hA-8Y-ZyU" customClass="DesignableLabel" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="520.66666666666663" y="86.333333333333329" width="38.333333333333371" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="qh1-pK-jkz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFCompact-Medium" family="SF Compact" pointSize="15"/>
+                        <color key="textColor" name="Text dark - Bluff Oyster 800"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy Now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBi-dy-Hcw" customClass="DesignableLabel" customModule="Trade_Me" customModuleProvider="target">
+                        <rect key="frame" x="505.66666666666669" y="104.33333333333333" width="53.333333333333314" height="15.666666666666671"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15.666666666666671" id="uSP-YY-PfV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFCompact-Regular" family="SF Compact" pointSize="13"/>
+                        <color key="textColor" name="Test light - Bluff Oyster 600"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gCO-LY-PRd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="c40-c7-fPK" secondAttribute="bottom" id="0VY-Bi-QW5"/>
+                    <constraint firstItem="GFj-GM-iHs" firstAttribute="leading" secondItem="fZX-LF-aI7" secondAttribute="leading" id="37A-Tl-cTy"/>
+                    <constraint firstItem="DJC-3P-GGH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="D1Y-Sv-nK3"/>
+                    <constraint firstItem="c40-c7-fPK" firstAttribute="leading" secondItem="fZX-LF-aI7" secondAttribute="leading" id="Eaa-6R-UtS"/>
+                    <constraint firstItem="EBi-dy-Hcw" firstAttribute="centerY" secondItem="GFj-GM-iHs" secondAttribute="centerY" id="HYg-5e-CGE"/>
+                    <constraint firstItem="c40-c7-fPK" firstAttribute="top" secondItem="fZX-LF-aI7" secondAttribute="bottom" id="UC4-bh-dqO"/>
+                    <constraint firstItem="fZX-LF-aI7" firstAttribute="top" secondItem="DJC-3P-GGH" secondAttribute="top" id="USW-pM-xO8"/>
+                    <constraint firstItem="EBi-dy-Hcw" firstAttribute="top" secondItem="8hA-8Y-ZyU" secondAttribute="bottom" id="VJj-aC-WCY"/>
+                    <constraint firstAttribute="trailing" secondItem="8hA-8Y-ZyU" secondAttribute="trailing" constant="20" symbolic="YES" id="bVu-Fk-KT6"/>
+                    <constraint firstAttribute="bottom" secondItem="DJC-3P-GGH" secondAttribute="bottom" constant="20" symbolic="YES" id="cm1-wo-7al"/>
+                    <constraint firstAttribute="trailing" secondItem="EBi-dy-Hcw" secondAttribute="trailing" constant="20" symbolic="YES" id="d6S-l5-I9v"/>
+                    <constraint firstItem="GFj-GM-iHs" firstAttribute="top" secondItem="gCO-LY-PRd" secondAttribute="bottom" id="ds1-YB-ttr"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c40-c7-fPK" secondAttribute="trailing" constant="8" id="dta-aI-RwF"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fZX-LF-aI7" secondAttribute="trailing" constant="8" id="hlT-nj-FvA"/>
+                    <constraint firstItem="fZX-LF-aI7" firstAttribute="leading" secondItem="DJC-3P-GGH" secondAttribute="trailing" constant="8" symbolic="YES" id="i8l-aq-OB6"/>
+                    <constraint firstItem="gCO-LY-PRd" firstAttribute="leading" secondItem="fZX-LF-aI7" secondAttribute="leading" id="kjc-W2-Tvc"/>
+                    <constraint firstItem="EBi-dy-Hcw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GFj-GM-iHs" secondAttribute="trailing" constant="10" id="oa4-bM-MhE"/>
+                    <constraint firstItem="GFj-GM-iHs" firstAttribute="bottom" secondItem="DJC-3P-GGH" secondAttribute="bottom" id="olC-g0-M6D"/>
+                    <constraint firstItem="8hA-8Y-ZyU" firstAttribute="centerY" secondItem="gCO-LY-PRd" secondAttribute="centerY" id="tJe-XC-cda"/>
+                    <constraint firstItem="8hA-8Y-ZyU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gCO-LY-PRd" secondAttribute="trailing" constant="10" id="yWz-fP-GHS"/>
+                    <constraint firstItem="DJC-3P-GGH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="zpM-rz-A4P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buyNowPrice" destination="8hA-8Y-ZyU" id="56k-qc-H7f"/>
+                <outlet property="buyNowText" destination="EBi-dy-Hcw" id="rNa-vX-wnk"/>
+                <outlet property="listPrice" destination="gCO-LY-PRd" id="r0V-Lo-lg8"/>
+                <outlet property="listTitle" destination="c40-c7-fPK" id="QDY-te-hqm"/>
+                <outlet property="myImage" destination="DJC-3P-GGH" id="DcR-KM-0BY"/>
+                <outlet property="regionName" destination="fZX-LF-aI7" id="SXu-tb-aiI"/>
+                <outlet property="reservLabel" destination="GFj-GM-iHs" id="8xg-nw-NhA"/>
+            </connections>
+            <point key="canvasLocation" x="334.61538461538458" y="54.028436018957343"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="8hA-8Y-ZyU">
+            <size key="intrinsicContentSize" width="38.333333333333336" height="18"/>
+        </designable>
+        <designable name="EBi-dy-Hcw">
+            <size key="intrinsicContentSize" width="53.333333333333336" height="15.666666666666666"/>
+        </designable>
+        <designable name="GFj-GM-iHs">
+            <size key="intrinsicContentSize" width="33.333333333333336" height="15.666666666666666"/>
+        </designable>
+        <designable name="c40-c7-fPK">
+            <size key="intrinsicContentSize" width="38.333333333333336" height="18"/>
+        </designable>
+        <designable name="fZX-LF-aI7">
+            <size key="intrinsicContentSize" width="33.333333333333336" height="15.666666666666666"/>
+        </designable>
+        <designable name="gCO-LY-PRd">
+            <size key="intrinsicContentSize" width="38.333333333333336" height="18"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="TradeMe_Logo" width="271.66665649414062" height="72.666664123535156"/>
+        <namedColor name="Test light - Bluff Oyster 600">
+            <color red="0.5220000147819519" green="0.50199997425079346" blue="0.48199999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text dark - Bluff Oyster 800">
+            <color red="0.22400000691413879" green="0.20800000429153442" blue="0.19200000166893005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
